@@ -33,6 +33,8 @@ export class CustomInputComponent implements OnInit {
 
       if (event instanceof ValueChangeEvent) {
         console.log('ValueChange ', event.value);
+        console.log(event.source);
+
       }
       if (event instanceof StatusChangeEvent) {
         console.log('Status ', event.status);

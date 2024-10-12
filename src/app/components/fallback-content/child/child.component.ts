@@ -5,8 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './child.component.html',
-  styles: ``
+  styles: `
+ `,
 })
-export class ChildComponent {
-
-}
+export class ChildComponent {}

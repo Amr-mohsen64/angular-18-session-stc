@@ -5,6 +5,7 @@ import { ParentComponent } from './components/fallback-content/parent/parent.com
 import { NavComponent } from './components/nav/nav.component';
 import { CustomFormComponent } from './components/form-features/custom-form/custom-form.component';
 import { CustomInputComponent } from './components/form-features/custom-input/custom-input.component';
+import { AsyncPipe } from '@angular/common';
 
 @Component({
   selector: 'app-root',

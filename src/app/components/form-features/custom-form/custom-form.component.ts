@@ -60,6 +60,8 @@ export class CustomFormComponent implements OnInit {
 
       if (event instanceof FormResetEvent) {
         console.log('Form reset');
+        // event.source // provides access to the form
+        //all other events are triggered after reset
       }
     });
   }

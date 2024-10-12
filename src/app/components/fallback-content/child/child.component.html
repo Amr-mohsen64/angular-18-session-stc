@@ -1,3 +1,13 @@
-<ng-content select="header"></ng-content>
-<ng-content></ng-content>
-<ng-content select="footer">fallback Footer</ng-content>
+<ng-content select="header">
+  <div class="app-child-header">fallback header</div>
+</ng-content>
+<h1>
+  <ng-content>default content</ng-content>
+</h1>
+
+<!-- <ng-content select="footer"></ng-content>  before angular 18 -->
+<ng-content select="footer">
+  <div class="app-child-footer">
+    fallback Footer
+  </div>
+</ng-content>

@@ -12,6 +12,7 @@ export const routes: Routes = [
     redirectTo: (urlInfo) => {
       // you can do what ever u want here with this object
       // u can handle logic on the fly here
+      // returns a string or URl tree (represents the url structure)
       console.log(urlInfo);
       return 'profile';
     },

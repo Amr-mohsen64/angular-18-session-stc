@@ -49,7 +49,7 @@ import { RouterModule } from '@angular/router';
         <li>
           <a routerLink="/fallback" routerLinkActive="active">Fallback</a>
         </li>
-        <li><a routerLink="/profile" routerLinkActive="active">Profile</a></li>
+        <li><a routerLink="/user/4" routerLinkActive="active">Profile</a></li>
         <li><a routerLink="/input" routerLinkActive="active">Input</a></li>
         <li><a routerLink="/form" routerLinkActive="active">Form</a></li>
       </ul>
